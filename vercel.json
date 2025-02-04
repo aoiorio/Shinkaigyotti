@@ -7,7 +7,7 @@
             "src": "shinkaigyotti/wsgi.py",
             "use": "@vercel/python",
             "config": {
-                "maxLambdaSize": "15mb",
+                "maxLambdaSize": "2000mb",
                 "runtime": "python3.12.3"
             }
         },
