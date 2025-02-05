@@ -95,7 +95,7 @@ class ImageViewSet(viewsets.ModelViewSet):
         # ユーザーが選択した画像を取得
         base_image = request.data["image"]
         least_dis = 30
-        res = ""
+        res = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWNgaUn2Aqf7nP0a6zMW-WA4MppqcHvlVeVw&s"
 
         # 深海魚たちを取得
         img_urls = get_fish_img_urls()
